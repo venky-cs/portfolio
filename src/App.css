@@ -69,3 +69,8 @@ img{
 .inline{
   display: flex;
 }
+
+/* footer */
+footer p{
+  text-align: center;
+}

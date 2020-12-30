@@ -13,7 +13,9 @@ function App() {
 
         <Section />
 
-        
+        <footer>
+          <p>venky-cs @ DevChallengers.io</p>
+        </footer>
     </div>
   );
 }
