@@ -1,21 +1,21 @@
 import React from 'react'
 
-function Header() {
+function Header({image,name,role,email,phone}) {
     return (
-        <div className="header">
+        <div className="header card">
             <div className="img">
-                <img src="" alt="profile-picture" />
+                <img src={image} alt="profile-picture" />
             </div>
 
             <div className="details">
                 <div className="profile">
                     <div className="person">
-                        <h3>Billy Person</h3>
-                        <p>Front-end developer</p>
+                        <h3>{name}</h3>
+                        <p>{role}</p>
                     </div>
                     <div className="contact">
-                        <p>billy@example.com</p>
-                        <p>(+603)546 624 342</p>
+                        <p>{email}</p>
+                        <p>{phone}</p>
                     </div>
                 </div>
                 <p>Self-motivated developer,who is willing to learn and create outstanding UI applications</p>
