@@ -1,6 +1,7 @@
-import './App.css';
 import Header from './components/Header'
 import Main from './components/Main'
+import Section from './components/Section'
+import './App.css';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
         phone="(+603)546 624 342"/>
 
         <Main />
+
+        <Section />
+
+        
     </div>
   );
 }
