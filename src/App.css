@@ -30,8 +30,8 @@ body{
   justify-content:space-evenly;
 }
 
-img{
-  width: 100%;
+.header img{
+  width: 50%;
   border-radius:12px;
 }
 .profile{
@@ -76,6 +76,8 @@ img{
 }
 .content img{
   width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
 }
 .blog h3,.hobbies h3,.experiences h3{
    font-weight:500;
@@ -88,6 +90,10 @@ img{
 .hobbie h4{
    font-weight:600;
    font-size:18px;
+}
+.hobbie img{
+  width: 100%;
+  border-radius: 12px;
 }
 .experiences{
    grid-row: span 3;
