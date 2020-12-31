@@ -4,7 +4,7 @@ function Skill({name,level}) {
     return (
         <div className="skill">
             <p>{name}</p>
-            <progress value={level}/>
+            <progress value={level} max="100"/>
         </div>
     )
 }

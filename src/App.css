@@ -69,6 +69,18 @@ img{
 .inline{
   display: flex;
 }
+.btn button{
+  padding:8px 18px;
+  margin-right: 10px;
+  border-radius:12px;
+  border: 1px solid grey;
+}
+.btn button:hover{
+  background-color:#6AA2EF;
+  color: white;
+  cursor: pointer;
+}
+
 
 /* footer */
 footer p{

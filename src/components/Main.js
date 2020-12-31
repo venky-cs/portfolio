@@ -10,11 +10,11 @@ function Main() {
             <div className="skills card">
                 <h3>FRONT END</h3>
                 <Skill name="React" level="60"/>
-                <Skill name="Javascript" level="60"/>
-                <Skill name="CSS" level="60"/>
-                <Skill name="Vue" level="60"/>
-                <Skill name="Redux" level="60"/>
-                <Skill name="React Native" level="60"/>
+                <Skill name="Javascript" level="70"/>
+                <Skill name="CSS" level="80"/>
+                <Skill name="Vue" level="50"/>
+                <Skill name="Redux" level="70"/>
+                <Skill name="React Native" level="80"/>
             </div>
 
             <div className="blogs card">
