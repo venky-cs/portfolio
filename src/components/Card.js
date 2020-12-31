@@ -10,8 +10,8 @@ function Card({image,built,title,exp,code,demo}) {
             <p>{exp}</p>
 
             <div className="inline btn">
-                <p>{demo}</p>
-                <p>{code}</p>
+                <button><a href={demo}>Demo</a></button>
+                <button><a href={code}>Code</a></button>
             </div>
         </div>
     )

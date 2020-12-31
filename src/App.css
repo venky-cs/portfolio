@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +6,9 @@
 }
 body{
   background-color:rgba(128, 128, 128, 0.185);
+  font-family: 'Montserrat',
+  sans-serif;
+  line-height:24px;
 }
 .App{
   width: 80%;
@@ -34,6 +38,14 @@ img{
   display:flex;
   justify-content: space-between;
 }
+.person .h3{
+  font-weight:600;
+  font-size:24px;
+}
+.person p,.contact p{
+   font-weight:500;
+   font-size:18px;
+}
 
 /* main */
 .main{
@@ -46,17 +58,50 @@ img{
   grid-row: span 2;
   grid-column: span 2;
 }
+.skills h3{
+   font-weight:700;
+   font-size:18px;
+}
+.skill p,.blogs p,.blog p,.hobbie p,.experience p{
+   font-weight:500;
+   font-size:16px;
+}
 .blogs{
   grid-row: span 4;
   grid-column: span 3;
+}
+.blog .content{
+  display:flex;
+  justify-content: space-between;
+}
+.content img{
+  width: 100%;
+}
+.blog h3,.hobbies h3,.experiences h3{
+   font-weight:500;
+   font-size:24px;
 }
 .hobbies{
   grid-row: span 5;
   grid-column: span 2;
 }
+.hobbie h4{
+   font-weight:600;
+   font-size:18px;
+}
 .experiences{
    grid-row: span 3;
    grid-column: span 3;
+}
+.experience{
+  display:flex;
+}
+.experience img{
+  width: 100%;
+}
+.experience h4{
+   font-weight:600;
+   font-size:16px;
 }
 
 /* skills */
@@ -70,10 +115,13 @@ img{
   display: flex;
 }
 .btn button{
+  background-color:white;
   padding:8px 18px;
   margin-right: 10px;
   border-radius:12px;
   border: 1px solid grey;
+   font-weight:500;
+   font-size:14px;
 }
 .btn button:hover{
   background-color:#6AA2EF;
@@ -81,6 +129,43 @@ img{
   cursor: pointer;
 }
 
+.projects h3{
+   font-weight:500;
+   font-size:18px;
+   padding: 25px 8px;
+}
+.project{
+  display:flex;
+  flex-wrap: wrap;
+}
+.list{
+  flex: 0.30;
+  background-color:white;
+  border-radius: 12px;
+  border: 12px solid white;
+  margin: 20px;
+  padding: 20px
+}
+.list img{
+  width: 100%;
+  height: 180px;
+}
+.list p{
+   font-weight:500;
+   font-size:16px;
+   padding: 10px 0;
+}
+.list h4{
+   font-weight:500;
+   font-size:24px;
+}
+a{
+  text-decoration: none;
+}
+
+p{
+  color: #828282;
+}
 
 /* footer */
 footer p{

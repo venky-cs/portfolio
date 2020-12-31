@@ -15,9 +15,9 @@ function Section() {
                     <button value="react" onClick={filterProduct}>React</button>
                 </div>
             </div>
-            <div className="project card">
+            <div className="project">
                 {state.map(item => (
-                    <Card image={item.image} built={item.built} title={item.title} exp={item.exp} demo={item.demo} code={item.code}/>
+                    <Card key={item.id} image={item.image} built={item.built} title={item.title} exp={item.exp} demo={item.demo} code={item.code}/>
                 ))}
             </div>
         </div>

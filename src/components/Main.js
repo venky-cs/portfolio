@@ -1,7 +1,7 @@
 import React from 'react'
 import Skill from './Skill'
 import Blog from './Blog'
-import Hobbies from './Hobbie'
+import Hobbie from './Hobbie'
 import Experience from './Experience'
 
 function Main() {
@@ -24,17 +24,17 @@ function Main() {
 
             <div className="hobbies card">
                 <h3>Hobbies</h3>
-                <Hobbies image="" hobbie="Gaming" exp="Quisque feugiat malesuada molestie"/>
-                <Hobbies image="" hobbie="Cooking" exp="Quisque feugiat malesuada molestie"/>
-                <Hobbies image="" hobbie="Biking" exp="Quisque feugiat malesuada molestie"/>
+                <Hobbie image="" hobbie="Gaming" exp="Quisque feugiat malesuada molestie"/>
+                <Hobbie image="" hobbie="Cooking" exp="Quisque feugiat malesuada molestie"/>
+                <Hobbie image="" hobbie="Biking" exp="Quisque feugiat malesuada molestie"/>
             </div>
 
             <div className="experiences card">
                 <h3>Experiences</h3>
-                <Experience year="Feb 2017 -Current"
+                <Experience pic="" year="Feb 2017 -Current"
                 role="Front-end developer"
                 exp="Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie"/>
-                <Experience year="Aug 2016 -Feb 2018"
+                <Experience pic="" year="Aug 2016 -Feb 2018"
                 role="Full-stack developer"
                 exp="Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie"/>
             </div>
