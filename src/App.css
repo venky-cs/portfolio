@@ -23,7 +23,12 @@ body{
 .main .card{
   margin:0;
 }
-
+h2,h3,h4,h5{
+  padding: 8px 0;
+}
+p{
+  padding:5px 0;
+}
 .header{
   display:flex;
   align-items: center;
@@ -176,4 +181,24 @@ p{
 /* footer */
 footer p{
   text-align: center;
+}
+
+
+@media (max-width: 768px){
+.img img{
+  width: 80%;
+}
+.main,.header{
+  display:flex;
+  flex-direction:column
+}
+.list{
+  flex:1;
+}
+}
+
+@media (max-width:420px){
+  p{
+    font-size:10px
+  }
 }
