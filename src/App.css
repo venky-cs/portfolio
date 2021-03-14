@@ -183,6 +183,7 @@ p {
 .list img {
   width: 252px;
   height: 217px;
+  border-radius: 12px;
 }
 .list p {
   font-weight: 500;
