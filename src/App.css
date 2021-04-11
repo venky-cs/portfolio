@@ -170,10 +170,13 @@ p {
 .project {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: column;
+  justify-content: space-between;
 }
 .list {
-  width: 280px;
-  height: 568px;
+  /* width: 280px; */
+  /* height: 568px; */
+  flex: 1;
   background-color: white;
   border-radius: 12px;
   border: 12px solid white;
@@ -216,6 +219,12 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+  .main .skills,
+  .main .blogs,
+  .main .hobbies,
+  .main .experiences {
+    margin: 20px auto;
+  }
   .list {
     width: 100%;
     padding: 50px;
@@ -229,6 +238,9 @@ footer p {
 @media (max-width: 420px) {
   .hobbie img {
     width: 100%;
+  }
+  .btn button {
+    font-size: 10px !important;
   }
   .experience {
     display: flex;
